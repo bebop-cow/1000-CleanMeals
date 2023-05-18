@@ -1,0 +1,19 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.toggle-box {
+  margin-bottom: 10px;
+}
+
+.toggle-box .toggle-label {
+  cursor: pointer;
+}
+
+.toggle-box .toggle-content {
+  display: none;
+  padding: 10px;
+  background-color: lightgray;
+}
