@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var label = document.createElement("label");
     label.classList.add("toggle-label");
-    label.innerHTML = "Toggle " + index;
+    label.innerHTML = "Meal " + index;
     label.addEventListener("click", function() {
       toggleContent.style.display = (toggleContent.style.display === "none") ? "block" : "none";
     });
