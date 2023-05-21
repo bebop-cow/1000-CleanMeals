@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var toggleContent = document.createElement("div");
     toggleContent.classList.add("toggle-content");
-    toggleContent.innerHTML = "Content " + index;
+    toggleContent.innerHTML = "check " + index;
 
     toggleBox.appendChild(label);
     toggleBox.appendChild(toggleContent);
