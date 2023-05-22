@@ -4,6 +4,10 @@
   grid-gap: 10px;
 }
 
+.h1{
+  text-align: center;
+}
+
 .toggle-box {
   padding: 40px 10px 40px 10px;
 }

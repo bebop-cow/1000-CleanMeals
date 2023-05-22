@@ -6,6 +6,14 @@ document.addEventListener("DOMContentLoaded", function() {
     toggleContainer.appendChild(toggleBox);
   }
 
+  $(document).ready(function() {
+
+    $('label').click(function() {
+
+      $("#" + id).toggleClass("blue"); 
+    }
+  }
+
   function createToggleBox(index) {
     var toggleBox = document.createElement("div");
     toggleBox.classList.add("toggle-box");
@@ -19,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var toggleContent = document.createElement("div");
     toggleContent.classList.add("toggle-content");
-    toggleContent.innerHTML = "check " + index;
+    toggleContent.innerHTML = "check ";
 
     toggleBox.appendChild(label);
     toggleBox.appendChild(toggleContent);
