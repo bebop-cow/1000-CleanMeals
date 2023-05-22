@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
     $('label').click(function() {
 
       $("#" + id).toggleClass("blue"); 
-    }
-  }
+    });
+  });
 
   function createToggleBox(index) {
     var toggleBox = document.createElement("div");
