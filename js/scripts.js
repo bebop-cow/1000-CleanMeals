@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     $('label').click(function() {
 
-      $("#" + id).toggleClass("blue"); 
+      $(".toggle-label").toggleClass("blue"); 
     });
   });
 
