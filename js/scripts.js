@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   $(document).ready(function() {
 
-    $('label').click(function() {
+    $('.toggle-label').click(function() {
 
-      $(".label").toggleClass("blue"); 
+      $(".toggle-box").toggleClass("blue"); 
     });
   });
 
