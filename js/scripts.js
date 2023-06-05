@@ -6,13 +6,13 @@ document.addEventListener("DOMContentLoaded", function() {
     toggleContainer.appendChild(toggleBox);
   }
 
-  $(document).ready(function() {
+  // $(document).ready(function() {
 
-    $('.toggle-label').click(function() {
+  //   $('.toggle-label').click(function() {
 
-      $(".toggle-label").toggleClass("blue"); 
-    });
-  });
+  //     $(".toggle-label").toggleClass("blue"); 
+  //   });
+  // });
 
   function createToggleBox(index) {
     var toggleBox = document.createElement("div");
@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
     label.innerHTML = "Meal " + index;
     label.addEventListener("click", function() {
       toggleContent.style.display = (toggleContent.style.display === "none") ? "block" : "none";
+      label.classList.add("blue");
     });
 
     var toggleContent = document.createElement("div");
