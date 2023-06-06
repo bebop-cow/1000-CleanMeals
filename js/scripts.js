@@ -16,14 +16,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function createToggleBox(index) {
     var toggleBox = document.createElement("div");
-    toggleBox.classList.add("toggle-box");
+    toggleBox.classList.add("toggleboxes");
 
     var label = document.createElement("label");
     label.classList.add("toggle-label");
     label.innerHTML = "Meal " + index;
     label.addEventListener("click", function() {
       toggleContent.style.display = (toggleContent.style.display === "none") ? "block" : "none";
-      toggle-box.classList.add("blue");
+      toggleboxes.classList.add("blue");
     });
 
     var toggleContent = document.createElement("div");

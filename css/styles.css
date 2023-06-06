@@ -6,7 +6,7 @@
 }
 
 
-.toggle-box {
+.toggleboxes {
   padding: 40px 10px 40px 10px;
   border: solid #BEBEBE;
 }
@@ -17,11 +17,11 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.toggle-box .toggle-label {
+.toggleboxes .toggle-label {
   cursor: pointer;
 }
 
-.toggle-box .toggle-content {
+.toggleboxes .toggle-content {
   display: none;
   background-color: lightgray;
 
