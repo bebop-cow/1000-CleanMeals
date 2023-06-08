@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
     label.innerHTML = "Meal " + index;
     label.addEventListener("click", function() {
       toggleContent.style.display = (toggleContent.style.display === "none") ? "block" : "none";
-      toggleContent.classList.add("blue");
+      toggleBox.classList.add("blue");
     });
 
     var toggleContent = document.createElement("div");
