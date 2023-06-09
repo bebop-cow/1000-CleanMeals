@@ -23,6 +23,7 @@
 
 .toggleboxes .toggle-content {
   display: none;
-  background-color: green;
+  background-color: lightgray;
+  color: green;
 
 }
