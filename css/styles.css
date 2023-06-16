@@ -10,6 +10,9 @@
   padding: 40px 10px 40px 10px;
   border: solid #BEBEBE;
 }
+.button {
+  border: solid black;
+}
 
 .blue {
   background-color: lightgray;
