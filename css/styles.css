@@ -11,6 +11,7 @@
   border: solid #BEBEBE;
 }
 #button {
+  width: 50%;
   background-color: blueviolet;
   border: none;
   color: white;
