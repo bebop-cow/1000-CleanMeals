@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded", function() {
   var toggleContainer = document.getElementById("toggle-container");
 
@@ -6,13 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     toggleContainer.appendChild(toggleBox);
   }
 
-  // $(document).ready(function() {
 
-  //   $('.toggle-label').click(function() {
-
-  //     $(".toggle-label").toggleClass("blue"); 
-  //   });
-  // });
 
   function createToggleBox(index) {
     var toggleBox = document.createElement("div");
