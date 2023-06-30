@@ -31,4 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     return toggleBox;
   }
+
+  function toggled {}
+  
 });
