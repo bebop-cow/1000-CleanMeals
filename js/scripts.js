@@ -32,10 +32,10 @@ document.addEventListener("DOMContentLoaded", function() {
     return toggleBox;
   }
 
-  function toggled {
-    const toggled = new Array( );
+  // function toggled {
+  //   const toggled = new Array( );
 
-  }
+  // }
 
 
 });
